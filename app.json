@@ -1,7 +1,7 @@
 {
   "name": "GitLab on Heroku",
   "description": "Version control for your server that runs on Heroku",
-  "repository": "https://github.com/pmq20/gitlab-on-heroku",
+  "repository": "https://github.com/denzuko-forked/gitlab-on-heroku/gitlab-on-heroku",
   "keywords": ["git", "gitlab"],
   "buildpacks": [
     {
