@@ -163,7 +163,7 @@ gem 'hipchat', '~> 1.5.0'
 gem "gitlab-flowdock-git-hook", "~> 1.0.1"
 
 # Gemnasium integration
-gem "gemnasium-gitlab-service", "~> 0.2"
++gem "gemnasium-gitlab-service", git: "https://github.com/gemnasium/gemnasium-gitlab-service"
 
 # Slack integration
 gem "slack-notifier", "~> 1.2.0"
