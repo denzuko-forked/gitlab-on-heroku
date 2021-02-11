@@ -3,6 +3,7 @@
   "description": "Version control for your server that runs on Heroku",
   "repository": "https://github.com/denzuko-forked/gitlab-on-heroku/gitlab-on-heroku",
   "keywords": ["git", "gitlab"],
+  "website": "https://github.com/denzuko-forked/gitlab-on-heroku/",
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-apt.git"
@@ -10,5 +11,20 @@
     {
       "url": "https://github.com/heroku/heroku-buildpack-ruby"
     }
-  ]
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  },
+  "image": "heroku/ruby",
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rake test"
+      }
+    }
+  }
 }
