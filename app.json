@@ -19,7 +19,6 @@
     }
   },
   "image": "heroku/ruby",
-  ],
   "environments": {
     "test": {
       "scripts": {
