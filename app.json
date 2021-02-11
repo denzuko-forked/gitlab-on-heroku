@@ -18,7 +18,6 @@
       "size": "standard-1x"
     }
   },
-  "image": "heroku/ruby",
   "environments": {
     "test": {
       "scripts": {
